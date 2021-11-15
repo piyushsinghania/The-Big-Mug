@@ -1,0 +1,264 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+#navbar {
+  position: absolute;
+  top: 0%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* background-color: lightgoldenrodyellow; */
+}
+#navbar ul {
+  display: flex;
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+#navbar ul li a {
+  color:#484B4F;
+  font-size: 1.3rem;
+  /* display: block; */
+  padding: 13px 30px;
+  margin: 10px;
+  text-decoration: none;
+}
+#phone {
+  margin: 0px;
+  margin-left: 170px;
+}
+#phone a img {
+  padding-left: 8 px;
+  width: 20 px;
+  height: 23 px;
+  padding-top: -1px;
+  padding-bottom: 1px;
+  margin: -6px;
+}
+#logoh {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  /* justify-content: center; */
+  /* position: static; */
+  /* width: 53px; */
+  /* font-style: initial; */
+  line-height: 19px;
+  /* font-size: 36px; */
+}
+#logo img {
+  height: 70px;
+  width: 70px;
+  padding: 10px;
+  margin: 0px 30px;
+}
+#home {
+  display: flex;
+  flex-direction: row;
+  padding: 150px 50px;
+  height: 400px;
+  /* width: 1300px; */
+  background-color: #ededed;
+  justify-content: left;
+  align-items: flex-start;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  /* width: 100%; */
+  z-index: -1;
+}
+#home h1 {
+  font-size: 4.3rem;
+  text-align: left;
+  padding: 5px 5px;
+  margin-top: 80px;
+  font-weight: initial;
+  width: 480px;
+  justify-content: left;
+  color: #2B2F33;
+}
+#home p {
+  justify-content: left;
+  text-align: left;
+  color: rgb(12, 1, 1);
+  font-family: "Architects Daughter", cursive;
+  width: 480px;
+  color: #6B7279;
+}
+.home
+{
+  /* position: relative; */
+  margin: 0px 0px;
+  /* padding: 50px; */
+  align-items: right;
+  /* justify-content: start; */
+
+}
+.h
+{
+  position: relative;
+}
+#home img {
+  height: 700px;
+  width: 400px;
+  padding: 0 50px;
+  /* margin: 0px 100px; */
+  margin-left: 190px;
+  margin-top: 50px;
+}
+.btn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: #1F2131;
+  color: white;
+  margin: 15px 0px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+#home a
+{
+  margin: 0px 250px;
+  /* margin-bottom:120px ; */
+  /* margin-top: ; */
+  padding: 1px 30px;
+  /* padding-bottom: 19px; */
+}
+#menu h4
+{
+  font-size: 35px;
+  color: #424950;
+  margin: 5px 10px;
+}
+#numbers
+{
+  display: flex;
+  flex-direction: row;
+}
+.menu-h h1
+{
+  font-size: 3.3rem;
+  padding: 10px 60px;
+  color: #FAFAFA;
+}
+.menu-h p
+{
+  font-size: 1.3rem;
+  padding: 10px 50px;
+  font-weight: bold;
+  color: #CDCECF;
+}
+#menu
+{
+  background-color: #2F3338;
+  /* width: 100%;
+  height: 100%; */
+  display: flex;
+  flex-direction: row;
+  /* padding: 150px 50px; */
+  height: 100;
+  /* width: 1300px; */
+  /* background-color: #ededed; */
+  justify-content: left;
+  align-items: flex-start;
+}
+#menu::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  /* width: 100%; */
+  z-index: -1;
+}
+#machine img
+{
+  width: 500px;
+  height: 700px;
+  /* position: absolute; */
+  margin: 100px 90px;
+}
+#menu-2
+{
+  display: flex;
+  flex-direction: row;
+}
+#text
+{
+  margin: 98px;
+}
+#text h1
+{
+  font-size: 3.3rem;
+  width: 400px;
+  color: #FAFAFA;
+  /* padding: 2px 50px; */
+}
+#text p
+{
+  padding: 30px 0px;
+  font-size: 23px;
+  color: #FAFAFA;
+}
+#li1
+{
+  color: #C49261;
+}
+#li2
+{
+  color: #FAFAFA;
+}
+#li3
+{
+  color: #FAFAFA;
+}
+.list ul li
+{
+  display: inline-table;
+  list-style: disc;
+  padding-right: 60px;
+  font-size: 20px;
+  /* color: #FAFAFA; */
+}
+/* .list a
+{
+  margin: 1000px 0px;
+} */
+#text h2
+{
+  color: #C19060;
+  font-size: 25px;
+}
+/* .page2-1 {
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+} */
+/* .page2-1 p 
+{
+    
+}
+.page2-2 {
+  display: flex;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+}
+.page2-2 img {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin: 2px;
+  border: 2px solid black;
+}
+.page2-2 h1 {
+  font-size: 2.5rem;
+} */
