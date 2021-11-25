@@ -524,13 +524,13 @@ footer
     font-size: 1.2rem;
     text-align: center;
   }
-  .border
+  /* .border
   {
-  /* border: 4px solid linear-gradient(to right, red, purple); */
-  /* max-width: 250px;
+  border: 4px solid linear-gradient(to right, red, purple); 
+  max-width: 250px;
   padding: 1rem;
   position: relative;
   background: linear-gradient(to right, red, purple);
-  padding: 3px; */
-  -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(#fff), color-stop(0.1, #fff), color-stop(0.1, #66cc00)) 2 2 2 2 repeat repeat;
-  }
+  padding: 3px;
+  -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(#fff), color-stop(0.1, #fff), color-stop(0.1, #66cc00)) 2 2 2 2 repeat repeat; 
+  } */
